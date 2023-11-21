@@ -1,0 +1,94 @@
+
+body {
+
+  background-image: url('./assets/animal.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+.faixa {
+  background: linear-gradient(#347c2d, #9dffaa);
+  padding: 20px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.formulario {
+  max-width: 400px;
+  margin: auto;
+  background-color: rgba(0, 163, 22, 0.084);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: rgb(48, 210, 54);
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #103c0c;
+}
+
+.animais-cadastrados {
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.animais-cadastrados li {
+  background-color: #a3bca1ca;
+  background-position-x: left;
+}
+
+.info {
+  text-align: center;
+  border: #ddd;
+}
+
+
